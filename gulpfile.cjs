@@ -1881,6 +1881,7 @@ function buildCesiumViewer() {
 
       gulp.src(["Build/Cesium/Widgets/InfoBox/InfoBoxDescription.css"], {
         base: "Build/Cesium",
+        allowEmpty: true
       }),
 
       gulp.src(["web.config"])
