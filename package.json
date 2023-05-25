@@ -33,9 +33,7 @@
   "exports": {
     "./package.json": "./package.json",
     "./Source/*": "./Source/*",
-    "./Source/*.js": null,
     "./Build/*": "./Build/*",
-    "./Build/*.js": null,
     ".": {
       "require": "./index.cjs",
       "import": "./Source/Cesium.js"
